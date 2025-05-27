@@ -1,0 +1,297 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;;
+}
+#nav1{
+    border: 2px solid;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black; 
+}
+nav>section{
+    /* border: 2px solid red; */
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav>section>div>span>svg{
+    height: 2.3em;
+    fill: white;
+}
+ nav>section>div{
+    /* border: 2px soild red; */ 
+    width: 350px;
+}
+nav>section>ol{
+    border: 2px soild;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 490px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;;
+}
+nav>section>ol>li:hover{
+    color:#1ed760 ;
+    cursor: pointer;
+}
+main{
+    /* border: 2px solid red; */
+    height: 600px;
+    background: url(./image/bubbles-dktp.svg) center center / 100% 927px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)) rgb(108, 14, 224);  
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+main>section{
+    /* border: 2px solid greenyellow;  */
+    height: 500px;
+    width: 500px;
+}
+main>aside{
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 490px;
+
+}
+main svg{
+    height: 36em;
+}
+main img{
+    height: 442px;
+    width: 272px;
+    position: absolute;
+    top: 32.5%;
+    left: 17.8%;
+}
+main>aside>h1{
+    font-size: 55px;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 42%;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+}
+main button{
+    border-radius: 25px;
+    height: 50px;
+    width: 220px;
+    position: absolute;
+    top: 60%;
+    left: 42%;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: white;
+}
+#sec_section{
+    /* border: 2px solid; */
+    height: 590px;
+}
+#sec_section>h1{
+    /* border: 2px solid; */
+    text-align: center;
+    font-size: 43px;
+}
+#sec_section>aside{
+    /* border: 2px solid; */
+    height: 320px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+#sec_section div{
+     /* border: 2px solid;  */
+    height: inherit;
+    width: 225px;
+    text-align: center;
+}
+#sec_section h3{
+    font-size: 20px;
+    font-weight:900 ;
+}
+#sec_section p{
+    line-height: 25px;
+    font-weight: 600;
+}
+#sec_section img{
+    height: 140px;
+}
+#thir_section{
+    border: 2px solid;
+    height: 500px;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#thir_section>h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 900; 
+}
+#four_section{
+    /* border: 2px solid; */
+    height: 590px;
+}
+#four_section h1{
+    /* border: 2px solid green; */
+    text-align: center;
+    font-size: 40px;
+}
+#four_section aside{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+}
+#four_section summary{
+    /* border: 2px solid green; */
+    /* height: 50px; */
+    list-style: none;
+    padding: 30px;
+    font-weight: 600;
+    font-size: 16px;
+}
+#four_section summary:hover{
+    background-color: aliceblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#four_section summary i{
+    float: right;
+    height: 10px;
+    font-size: 35px;
+}
+#four_section details p{
+    margin-left: 2.5% ;
+} 
+#four_section details li{
+    margin-left: 4%;
+}
+#fifth_section {
+    /* border: 2px solid; */
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(./image/lets-play.svg) center center / 100% 927px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    /* background: url(./image/lets-play.svg);
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    background-repeat: no-repeat; */
+} 
+#fifth_section h1{
+    font-size: 70px;
+    color: white;
+    position: absolute;
+}
+#fifth_section button{
+    border-radius: 30px;
+    height: 50px;
+    width: 220px;
+    font-weight: 600;
+    position: absolute;
+    top: 380%;
+
+}
+footer{
+    /* border: 2px solid; */
+    height: 500px;
+    background-color: black; 
+} 
+footer>div>svg{
+    height: 2.4em;
+    position: absolute;
+    top:400% ;
+    left: 190px;
+    background-color: black;
+    fill: white;
+}
+footer>table{ 
+    /* border: 2px solid; */
+    height: 400px;
+    width: 40%;
+    position: absolute;
+    top: 400%;
+    left: 25%;
+    font-size: 16px;
+    padding: 2px;
+    color: white;
+}
+footer>table #d1{
+    color: rgb(145, 148, 150);
+    line-height: 3px;
+    font-weight: 600; 
+    font-size: 15px;
+}
+footer>table tr td:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+footer>aside{ 
+    /* border: 2px solid; */
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px; */
+    position: absolute;
+    top: 401%;
+    left: 75%; 
+    color: white;
+} 
+footer>aside>span{
+    font-size: 35px;
+    border: 2px solid;
+    border-radius: 26px;
+    padding: 3px;
+    word-spacing: 10px;
+} 
+footer>aside>span:hover{
+    color:#1ed760;
+    cursor: pointer;
+}
+footer>section{
+    /* border: 2px solid; */
+    width: 55%;
+    position: absolute;
+    display:  flex;
+    justify-content: space-between;
+    top: 456%;
+    left: 10%;
+    font-size: 12px;
+    color: white;
+}
+footer>section div:hover{
+    color:#1ed760;
+    cursor: pointer;
+}
+footer>div #d1{
+    /* border: 2px solid; */
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 448%;
+    left: 84%;
+    font-size: 12px;
+} 
+footer>div #d1:hover{
+    color:#1ed760;
+    cursor: pointer;
+}
+footer>div #d2{ 
+    /* border: 2px solid; */
+    color: white;
+    position: absolute;
+    top: 451%;
+    left: 80%;
+    font-size: 12px;
+}

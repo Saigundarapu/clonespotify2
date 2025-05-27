@@ -1,0 +1,148 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+
+}
+nav{
+    /* border: 2px solid; */
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+}
+nav svg{
+    height: 35px;
+    /* color: white; */
+    /* background-color: white; */
+    fill: white;
+
+}
+nav>div{
+    /* border: 2px solid red; */
+    width: 300px;
+}
+nav>aside{
+    /* border: 2px solid green; */
+    width: 520px;
+}
+nav ol{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 28px;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+}
+nav ol>li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+main{
+    /* border: 2px solid; */
+    height: 600px;
+    /* background-color: hotpink; */
+    background: url('./image/bubbles-dktp.svg') center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    display: flex;
+}
+main svg{
+    height: 37.5em;
+}
+main div{
+    /* border: 2px solid red; */
+    width: 560px;
+    height: 705px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+main aside{
+    /* border: 2px solid yellow; */
+    height: 610px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 580px; */
+}
+main img{
+    position: absolute;
+    height: 440px;
+    width: 280px;
+    top: 32.5%;
+    /* right: 10%; */
+    left: 18%;
+}
+main aside>h1{
+    position: absolute;
+    left: 42%;
+    top: 35%;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    /* border: 2px solid red; */
+    text-align: center;
+    width: 660px;
+    height: 300px;
+    /* display: block; */
+    /* gap: 10px; */
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+
+}
+#btn1{
+    /* border: 2px solid; */
+    width: 210px;
+    border-radius: 35px;
+    height: 1000px;
+    position: absolute;
+    top: 57%;
+    left: 43%;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+#sec1{
+    /* border: 2px solid red; */
+    height: 600px;
+
+}
+#sec1>h1{
+    /* border: 2px solid; */
+    text-align: center;
+    font-size: 40px;
+    /* word-spacing: 1px; */
+    letter-spacing: -2px;
+}
+#sec1 aside{
+    /* border: 2px solid; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#sec1 div{
+    /* border: 2px solid red; */
+    height: 350px;
+    width: 260px;
+    text-align: center;
+}
+#sec1 img{
+    height: 150px;
+    width: 150px;
+}
+#sec1 p{
+    line-height: 30px;
+    /* border: 2px solid; */
+    /* width: 220px; */
+}
+
+
+
+
